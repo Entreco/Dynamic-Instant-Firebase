@@ -1,0 +1,5 @@
+rootProject.name = 'GiddyApp'
+include ':app',
+        ':installed:profile',
+        ':instant:viewer',
+        ':libraries:libCore'

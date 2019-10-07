@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GiddyApp</string>
+    <string name="title_viewer">Viewer</string>
+    <string name="title_splash">Splash</string>
+</resources>
