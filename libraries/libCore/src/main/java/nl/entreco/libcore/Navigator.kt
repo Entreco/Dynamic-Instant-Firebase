@@ -2,6 +2,7 @@ package nl.entreco.libcore
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.gms.instantapps.InstantApps
 
 object Navigator {
 
@@ -25,5 +26,9 @@ object Navigator {
             addCategory(Intent.CATEGORY_DEFAULT)
         })
         finish()
+    }
+
+    fun AppCompatActivity.installApp() {
+        InstantApps.showInstallPrompt(this, null, 15, null)
     }
 }

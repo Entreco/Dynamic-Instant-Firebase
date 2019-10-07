@@ -3,7 +3,7 @@ package nl.entreco.viewer
 import androidx.lifecycle.Observer
 import nl.entreco.libcore.Navigator.startProfile
 
-class ViewerNavigator(
+class ViewerNavigatorInstalled(
     private val activity: ViewerActivity
 ) : Observer<ViewerEvents> {
 
